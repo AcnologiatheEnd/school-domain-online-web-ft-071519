@@ -15,8 +15,9 @@ class School
   
   def sort
     roster.each do |n,m|
-    m.each do |l|
-      l.sort
+      m.each do |l|
+        l.sort
+      end
     end
   end
 end
