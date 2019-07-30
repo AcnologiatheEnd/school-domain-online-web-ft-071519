@@ -19,5 +19,6 @@ class School
         l.sort
       end
     end
+    roster
   end
 end
