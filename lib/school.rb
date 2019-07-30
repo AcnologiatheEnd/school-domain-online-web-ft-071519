@@ -9,7 +9,7 @@ class School
     @roster[grade] << name
   end
   
-  def get_grade(grade)
+  def grade(grade)
     @roster[grade]
   end
   
